@@ -1,0 +1,19 @@
+### Django ###
+*.log
+*.pot
+*.pyc
+__pycache__/
+local_settings.py
+db.sqlite3
+media
+static
+
+
+# Environments
+.venv
+venv/
+env/
+.env/
+
+# Visual Studio Code
+.vscode
