@@ -7,3 +7,4 @@ class PostRudView(generics.RetrieveUpdateDestroyAPIView): #Detail view
     lookup_field = 'slug' # use get_object(self) method by default
     queryset = Post.objects.all()
     serializer_class = PostSerializer
+
